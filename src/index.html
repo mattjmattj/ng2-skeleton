@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta description="Get some insights on your development flow, now!">
+    <title>Angular 2 skeleton application</title>
+    
+    <!-- ES6-related imports -->
+    <script src="lib/traceur-runtime.js"></script>
+    <script src="lib/system.js"></script>
+    <script src="lib/Reflect.js"></script>
+    
+    <!-- Angular2-related imports -->
+    <script src="lib/zone.js"></script>
+    <script src="lib/long-stack-trace-zone.js"></script>
+
+</head>
+
+<body>
+    <application>Loading...</application>
+</body>
+
+<script>
+    //bootstrap the Angular2 application
+    System.config({defaultJSExtensions: true});
+</script>
+<script src="lib/angular2.js"></script>
+<script>
+    System.import('application').catch(console.log.bind(console));
+</script>
+
+</html>

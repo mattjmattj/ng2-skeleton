@@ -1,0 +1,38 @@
+{
+  "name": "ng2-skeleton",
+  "version": "0.0.0",
+  "description": "Angular 2 skeleton application in TypeScript",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp play"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattjmattj/ng2-skeleton.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mattjmattj/ng2-skeleton/issues"
+  },
+  "author": "Matthias Jouan <matthias.jouan@gmail.com>",
+  "homepage": "https://github.com/mattjmattj/ng2-skeleton",
+  "license": "MIT",
+  "devDependencies": {
+    "connect": "^3.3.4",
+    "del": "~1.1.1",
+    "gulp": "~3.9.0",
+    "gulp-size": "^1.2.1",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-traceur": "0.17.*",
+    "gulp-typescript": "^2.7.8",
+    "open": "0.0.5",
+    "serve-static": "~1.8.1",
+    "systemjs-builder": "~0.12.2",
+    "through2": "~0.6.3",
+    "typescript": "^1.5.0"
+  },
+  "dependencies": {
+    "angular2": "2.0.0-alpha.30",
+    "reflect-metadata": "^0.1.0",
+    "systemjs": "^0.18.4"
+  }
+}
